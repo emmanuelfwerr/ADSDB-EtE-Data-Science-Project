@@ -213,7 +213,7 @@ sum_energy_df_byday = energy_df_byday.groupby(['LCLid','Date']).sum().reset_inde
 from sqlalchemy import create_engine
 
 # Create an engine instance
-conn_string = 'postgresql://postgres:ETS80321123GOM1!@localhost:5432/formatted_zone'
+conn_string = 'postgresql://postgres:****************@localhost:5432/formatted_zone'
 db = create_engine(conn_string)
 
 # Connect to PostgreSQL server
