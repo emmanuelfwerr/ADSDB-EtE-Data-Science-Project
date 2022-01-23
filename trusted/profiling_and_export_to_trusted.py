@@ -18,7 +18,7 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 
 
 # Create an engine instance
-conn_string = 'postgresql://postgres:ETS80321123GOM1!@localhost:5432/formatted_zone'
+conn_string = 'postgresql://postgres:****************@localhost:5432/formatted_zone'
 db = create_engine(conn_string)
 
 # Connect to PostgreSQL server
@@ -382,7 +382,7 @@ weather_df.head()
 
 
 # Create an engine instance
-conn_string = 'postgresql://postgres:ETS80321123GOM1!@localhost:5432/trusted_zone'
+conn_string = 'postgresql://postgres:****************@localhost:5432/trusted_zone'
 db = create_engine(conn_string)
 
 # Connect to PostgreSQL server
